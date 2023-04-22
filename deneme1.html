@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        body {
+            background-color: #e6e6e6;
+        }
+
+        nav {
+            background-color: red;
+            height: 30px;
+            text-align: left;
+            padding: 20px;
+            
+        }
+
+        .linkler {
+            color: white;
+            padding-left: 20px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        #div3 {
+            color: white;
+            padding-left: 20px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        article {
+            width: 359px;
+            height: 465px;
+            margin-top: 20px;
+            margin-left:60px;
+            border: solid;
+            border-color: white;
+            border-collapse: collapse;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: inline-block;
+            background-color: white;
+        }
+
+        #ata {
+            left: 100px;
+            top: 10px;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        #ilkyazı {
+            padding-left: 120px;
+        }
+
+        #ikinciyazı {
+            position: absolute;
+            top: 80px;
+            left: 600px;
+            display: inline-block;
+            width: 710px;
+            height: 30px;
+            border: solid;
+            border-color: white;
+            text-align: center;
+            padding: 15px;
+            background-color: white;
+            margin-top: 20px
+        }
+
+        #p1 {
+            padding-left: 110px;
+        }
+
+        #div4 {
+            display: inline-block;
+            position: absolute;
+            top: 180px;
+            left: 600px;
+            height: 200px;
+            width: 700px;
+            padding-right: 50px;
+            background-color: white;
+        }
+
+        #div5 {
+            display: inline-block;
+            position: absolute;
+            padding-left: 30px;
+            padding-top: 10px;
+
+        }
+
+        hr {
+            border: solid 0.1px;
+            border-collapse: collapse;
+            border-color: #e6e6e6;
+            width: 95%;
+            float: left;
+        }
+
+        #grafik {
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        #p2 {
+            font-style: italic;
+            color: red;
+        }
+
+        #m {
+            border-style: solid;
+            margin-top: 540px;
+            margin-left: 40px;
+            width: 360px;
+            background-color: white;
+            padding: 1px;
+            border-color: white;
+            display: inline-block;
+        }
+
+        .sollinkler {
+            text-decoration: none;
+            font-size: 15px;
+            color: black;
+            width: 300px;
+            padding-left: 10px;
+        }
+
+        .sollinkler:hover {
+            color: blue;
+        }
+
+        #t {
+            border-style: solid;
+            color: black;
+            border-color: white;
+            margin-left: 40px;
+            width: 360px;
+            background-color: white;
+            margin-top: 10px;
+
+        }
+
+        #k {
+            border-style: solid;
+            color: black;
+            border-color: white;
+            margin-left: 40px;
+            width: 360px;
+            background-color: white;
+            margin-top: 10px;
+
+        }
+        #l{
+            display: inline-block;
+            position: absolute;
+            top: 400px;
+            left: 600px;
+            height: 250px;
+            width: 700px;
+            padding-right: 50px;
+            background-color: white;
+        }
+        #d{
+            border: solid;
+            width: 190px;
+            border-color: white;
+            background-color: red;
+            padding: 5px;
+            border-radius: 5px;
+            height: 20px;
+            display: inline-block;
+            
+        }
+        #d:hover{
+            background-color: grey;
+        }
+        .h{
+            text-decoration: none;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #q{
+            padding-left: 50px;
+            background-color: red;
+            width: 90px;
+            display: inline-block;
+            border: solid;
+            border-color: white;
+            padding: 5px;
+            border-radius: 5px;
+            height: 20px;
+        }
+        #o{
+            display: inline-block;
+            position: absolute;
+            top: 675px;
+            left: 600px;
+            height: 250px;
+            width: 700px;
+            padding-right: 50px;
+            background-color: white;
+            
+        }
+        #ol{
+            display: inline-block;
+            position: absolute;
+            top: 955px;
+            left: 600px;
+            height: 250px;
+            width: 700px;
+            padding-right: 50px;
+            background-color: white;
+        }
+        #d1{
+            border: solid;
+            width: 190px;
+            border-color: white;
+            background-color: red;
+            padding: 5px;
+            border-radius: 5px;
+            height: 20px;
+            display: inline-block;
+        }
+        #q1{
+            padding-left: 50px;
+            background-color: red;
+            width: 90px;
+            display: inline-block;
+            border: solid;
+            border-color: white;
+            padding: 5px;
+            border-radius: 5px;
+            height: 20px;
+        }
+        #bilgilendirme{
+            width: 1280px;
+            height: 200px;
+            margin-left: 60px;
+            border-style: solid;
+            margin-top: 700px;
+            border-color: white;
+            background-color: white;
+        }
+        #p3{
+            float: left;
+        }
+        #h2{
+            text-align: center;
+        }
+        table{
+            border: solid;
+            width: 1285px;
+            height: 330px;
+            margin-left: 60px;
+            background-color: white;
+            border-color: white;
+
+        }
+        tr{
+            text-align: center;
+        }
+        .table{
+            text-decoration: none;
+            color: black;
+        }
+        #telif{
+            text-align: center;
+            border: solid;
+            width: 1285px;
+            height: 330px;
+            margin-left: 60px;
+            border-color: e6e6e6;
+
+        }
+        #mu{
+            text-align: center;
+        }
+        #nub{
+            margin-left: 50px
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="nub">
+            
+            <a href="#" class="linkler"><i class="fa-solid fa-house-chimney"></i></a>
+            <a href="#" class="linkler">Java</a>
+            <a href="#" class="linkler"> C#</a>
+            <a href="#" class="linkler">Sql Server</a>
+            <a href="#" class="linkler">Hakkımda</a>
+            <a href="#" class="linkler">İletişim</a>
+        </div>
+        <div>
+            <div id="m">
+                <p class="n"><a href="#" class="sollinkler"><i class="fa-brands fa-instagram"> </i> instagram
+                        <hr>
+                    </a></p>
+                <p class="n"><a href="#" class="sollinkler"><i class="fa-brands fa-youtube"></i> youtube
+                        <hr>
+                    </a></p>
+                <p class="n"><a href="#" class="sollinkler"><i class="fa-solid fa-person"></i> udemy
+                        <hr>
+                    </a></p>
+                <p class="n"><a href="#" class="sollinkler"><i class="fa-brands fa-linkedin"></i> linkedin
+                        <hr>
+                    </a></p>
+                <p class="n"><a href="#" class="sollinkler"><i class="fa-brands fa-github"></i> github </a></p>
+            </div>
+            <div id="t">
+                <b> Günün Sözü </b>
+                <hr>
+                <p> Güzel şeyler , zaman alır.</p>
+            </div>
+            <div id="k">
+                <b> Duyuru </b>
+                <hr>
+                <p> Temmuz ayı indirimleri 30 temmuz sondur.</p>
+            </div>
+        </div>
+    </nav>
+
+    <article>
+        <div>
+            <img src="resimler/computer.jpeg">
+            <img src="resimler/ataturk-1690.jpg" width="150px" height="150px" id="ata">
+            <br><br>
+            <strong id="ilkyazı">ARDA ÜNAL</strong>
+            <p id="p1">Software Developer</p>
+        </div>
+    </article>
+    <aside>
+        <div>
+            <strong id="ikinciyazı"> YAZILIM KURSLARIM</strong>
+        </div>
+        <div id="div4">
+            <img src="resimler/indir.png" id="grafik">
+            <div id="div5">
+                <b>MODERN WEB GELİŞTİRME KURSU | SIFIRDAN İLERİ SEVİYE</b>
+                <hr>
+                <br><br>
+                Sıfırdan başlayarak Web Geliştiricisi olma yolunda adım adım öğren | HTML 5 , CSS 3 , BOOTSTRAP4 ,
+                JAVASCRIPT , JQUERY
+                <hr> <br><br>
+                <p id="p2">Eğitimin çekimleri devam ediyor.</p>
+            </div>
+        </div>
+        <div id="l">
+            <img src="resimler/indir (1).png" id="grafik">
+            <div id="div5">
+                <h3>Java Programlama Dili : Her Seviyeye Uygun Eğitim Seti</h3>
+                <hr>
+                <br><br>
+                Web , Mobil , Masaüstü ve birçok alanda kullanılan Java Programlama Dilini tadını çıkararak öğrenin.
+                 <br><br>
+                <div id="d">
+                    <a href="#" class="h">indirimli kupondan faydalan</a>
+                </div>
+                <div id="q">
+                    <a href="#" class="h">kursu incele</a>
+                </div>
+            </div>
+        </div>
+        <div id="o">
+            <img src="resimler/indir (2).png" id="grafik">
+            <div id="div5">
+                <h3>C# Programlama Dili :Her Seviyeye Hitap Eden Eğitim Seti</h3>
+                <hr>
+                <br><br>
+                C# Programlama Dilini Detaylı Olarak Öğrenme ve Aktif Olarak Kullanabilme.
+                 <br><br>
+                <div id="d">
+                    <a href="#" class="h">indirimli kupondan faydalan</a>
+                </div>
+                <div id="q">
+                    <a href="#" class="h">kursu incele</a>
+                </div>
+            </div>
+        </div>
+        <div id="ol">
+            <img src="resimler/indir (3).png" id="grafik">
+            <div id="div5">
+                <h3>Uygulamarla SQL Server Öğreniyorum : A'dan Z'ye</h3>
+                <hr>
+                <br><br>
+                SQL dilini detaylı olarak öğrenmek ve gerçek hayat projelerinde aktif olarak kullanabilmek.
+                 <br><br>
+                <div id="d1">
+                    <a href="#" class="h">indirimli kupondan faydalan</a>
+                </div>
+                <div id="q1">
+                    <a href="#" class="h">kursu incele</a>
+                </div>
+            </div>
+        </div>
+
+    </aside>
+    <footer>
+        <div id="bilgilendirme">
+            <h2 id="h2">BİLGİLENDİRME</h2>
+            <hr>
+            <p id="p3">Herkese merhabalar, Dünyanın en büyük eğitim platformlarından biri olan Udemy ‘de şuan için 3 tane yazılım kursu yayınladım.Bu eğitimleri hazırlamak benim için çok zorlu bir süreçti. Aktif olarak bir şirkette çalıştığımdan dolayı zamanım kısıtlıydı. Bu sebepten videoları işten döndükten sonra , geceleyin, hafta sonlarımda çektim.Artık rüyalarımda bile kodlama yapıyordum 😊 Başarı her zaman bedel istiyor. Ben elimden geleni yaptım sizlerde bu süreçte pes etmeden çalışmalısınız.Umarım hayatınıza dokunmak banada nasip olur , eğitimlerde görüşürüz.</p>
+        </div>
+        <div>
+            <hr>
+            <table>
+                <tr>
+                    <th>ŞİRKET</th>
+                    <th>KURSLAR</th>
+                    <th>YOUTUBE</th>
+                    <th>İLETİŞİM</th>
+                </tr>
+                <tr>
+                    <td>JForce Bilişim Teknolojileri</td>
+                    <td>
+                        <a href="#" class="table">C#</a>
+                    </td>
+                    <td>
+                        <a href="#" class="table">Youtube Kanalım</a>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-house-chimney"></i> enesbayram166@gmail.com
+                    </td>
+                </tr>
+                <tr>
+                    <td>version : 31.07.2022</td>
+                    <td>
+                        <a href="#" class="table">Java</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>hostname : WIN-IGKCQ24AN2</td>
+                    <td>
+                        <a href="#" class="table">MSSQL</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="http://127.0.0.1:5500/dersler/kendi%20%C3%A7al%C4%B1%C5%9Fmam/deneme1.panel.html" target="_blank" class="table">Panel</a></td>
+                </tr>
+            </table>
+        </div> <br><br> 
+        <p id="mu">
+            © 2022 Copyright : Tüm hakları saklıdır.
+        </p>
+        <br><br>
+    </footer>
+
+
+
+    
+</body>
+
+</html>
